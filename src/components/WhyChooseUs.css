@@ -1,0 +1,36 @@
+.why-choose-us {
+    background: var(--bg-color-light);
+}
+
+.reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.reason-item {
+    padding: 2rem 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.reason-item:hover {
+    transform: translateY(-5px);
+}
+
+.reason-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.reason-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.reason-item p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
