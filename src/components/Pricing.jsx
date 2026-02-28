@@ -3,21 +3,21 @@ import './Pricing.css';
 const packages = [
     {
         name: 'Basic Website',
-        price: '$499',
+        price: '$50',
         desc: 'Perfect for small businesses establishing their online presence.',
         features: ['Custom 5-Page Design', 'Mobile Responsive', 'Contact Form Integration', 'Basic SEO Setup', '1 Month Free Support'],
         recommended: false
     },
     {
         name: 'Professional',
-        price: '$999',
+        price: '$70',
         desc: 'Ideal for growing companies needing advanced features.',
         features: ['Up to 10 Pages', 'Custom UI/UX Design', 'CMS Integration', 'Advanced SEO & Speed', 'Google Analytics Setup', '3 Months Support'],
         recommended: true
     },
     {
         name: 'Business Premium',
-        price: 'Custom',
+        price: '$100',
         desc: 'Full-scale web application for enterprises and custom startups.',
         features: ['Unlimited Pages', 'Full-stack Development', 'Custom Dashboard/Portal', 'Payment Gateway Sync', 'Priority 24/7 Support'],
         recommended: false
